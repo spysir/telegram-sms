@@ -4,10 +4,9 @@ name: Android User Build
 
 on:
   workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'build'
-        required: false
+    
+      
+        
         
 
 jobs:
