@@ -1,6 +1,14 @@
 name: Android User Build
 
-on: [push]
+#on: [push]
+
+on:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'build'
+        required: false
+        default: 'start build'
 
 jobs:
     build:
